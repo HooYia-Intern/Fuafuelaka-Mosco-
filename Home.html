@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mosco || website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <nav class="nav-bar">
+           <a href="Home.html" class="logo"><img src="circle logo design.png" alt="logo" height="45px"; width="45px"></a>
+                <div class="nav-link">
+                    <ul>
+                        <li class="Active"><a href="Home.html" >home</a></li> 
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </div> 
+               <img src="mm.png" alt="menu hamburger" class="menuhamburger">
+        </nav>
+        <header></header>
+    <section>
+        <div>
+            <h1 class="banner-text">Welcome To <span>Mosco </span>Graphics</h1>
+                <div class="buttons-"> 
+                    <button class="btn1">Contact Us</button>
+                    <button class="btn2"> Join Us </button>
+                </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="cont">
+            <h2>Projects</h2>
+            <!--box 1-->
+            <div class="cont4">
+                <div class="cont1">
+                    <h3>Project 1</h3>
+                    <img src="moocc.jpg" alt="social media post design">
+                    <p>social media post design. these are designs 
+                        <br> created worth <b>5000FCFA.</b></p>
+                </div>
+                <!--box 2-->
+
+                <div class="cont2">
+                    <h3>Project 2</h3>
+                    <img src="pamela.jpg" alt="birthday post design">
+                    <p>birthday  post design. these are designs 
+                    <br> created worth <b>7000FCFA.</b></p>
+                </div>
+                    <!--box 3-->
+                <div class="cont3">
+                    <h3>Project 3</h3>
+                    <img src="circle logo design.png" alt="circle logo design ">
+                    <p>birthday  post design. these are designs 
+                    <br> created worth <b>7000FCFA.</b></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="feedback">
+            <center>
+                <h1 class="contact"> Contact </h1>
+                <br>
+                <input type="text" class="name" id="name" placeholder="name">
+                <br><br>
+                <input type="email" class="email" id="email" placeholder="Email">
+                <br><br>
+                <input type="password" class="password" id="password" placeholder="Password">
+            </center>
+        </div>
+        <div class="buttons">
+            <button class="btn"><a href="submit"> submit </a></button>
+            <button class="btn-btn"><a href="submit"> Reset </a></button>
+        </div>
+
+        <div class="services">
+
+            <h1>Services</h1>
+            
+            <div class="designs">
+               
+                     <p>logo  &ThickSpace;designing. 
+                        <br>
+                        post &ThickSpace; designing. 
+                
+                        <br>
+                       flyer &ThickSpace; designing.
+                        <br>
+                       business &ThickSpace;card &ThickSpace;designing.  
+                    </p>
+                    <br>
+           </div>
+        </div>
+    </footer>
+    <h6> <p>&copy; copyright 2023 - mosco graphics.com</p> </h6>
+</body>
+    <script>
+        const menuHamburger = document .querySelector(".menuhamburger")
+        const navLink = document .querySelector(".nav-link")
+
+        menuHamburger .addEventListener('click',()=>{
+        navLink.classList.toggle('mobile-menu')
+        })
+   
+    </script>
+</html>         
